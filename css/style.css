@@ -160,6 +160,24 @@
     border-top: none;
 }
 
+.card-stack h6 a {
+    color: #212529;
+}
+
+.card-stack h6 a:hover {
+    color: #27ae60;
+    text-decoration: none;
+}
+
+.card-stack .card {
+    flex: 1 0 0%;
+    margin-bottom: 15px;
+}
+
+.card-stack .card-body {
+    min-height: 193px;
+}
+
 .featured-press {
     position: relative;
     margin-top: -50px;;
@@ -168,6 +186,21 @@
 .featured-press .card:hover, .press .card:hover {
     box-shadow: inset 0 -3px 0 #27ae60;
     transition: .3s ease-in-out;
+}
+
+.page-item.active .page-link {
+    background-color: #27ae60;
+    border-color: #27ae60;
+}
+
+.page-link {
+    color: #27ae60;
+}
+
+.page-link:hover {
+    background-color: #27ae60;
+    color: white;
+    border-color: #27ae60;
 }
 
 footer {
