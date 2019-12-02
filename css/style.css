@@ -1,0 +1,229 @@
+
+
+/* PADDING */
+
+.ptop-xl {
+    padding-top: 130px;
+}
+ .ptop-l {
+     padding-top: 100px;
+ }
+ .ptop-m {
+    padding-top: 50px;
+}
+ .ptop-s {
+     padding-top: 25px;
+ }
+ .ptop-xs {
+    padding-top: 10px;
+}
+.ptop-xxs {
+    padding-top: 5px;
+}
+.pbtm-xl {
+    padding-bottom: 130px;
+}
+ .pbtm-l {
+     padding-bottom: 100px;
+ }
+ .pbtm-m {
+     padding-bottom: 50px;
+ }
+ .pbtm-s {
+    padding-bottom: 25px;
+}
+.pbtm-xs {
+    padding-bottom: 10px;
+}
+.pbtm-xxs {
+   padding-bottom: 5px;
+}
+
+/*Widths*/
+
+.w-60 {
+    width: 60%;
+}
+.w-40 {
+    width: 40%;
+}
+
+.overlay {
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 0;
+    background-color: #080d15;
+    opacity: .5;
+}
+
+.navbar-expand-lg .navbar-nav .nav-link, .footer-item {
+    padding-right: 1rem;
+    padding-left: .5rem;
+}
+
+.head-img {
+    height: 100vh;
+    background-image: url('../img/h1.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+  
+  .bill-img {
+    height: 50vh;
+    background-image: url('../img/bill.jpg');
+    background-size: cover;
+    background-position: bottom;
+    background-repeat: no-repeat;
+  }
+
+  .page-img {
+    height: 60vh;
+    background-image: url('../img/cbn.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+  }
+
+  .about-img img {
+      width: 5rem;
+  }
+
+  .members a h5 {
+      color: #212529;
+  }
+
+  .members a:hover {
+    text-decoration: none;
+  }
+
+  .members h5:hover {
+    color: #27ae60;
+  }
+
+.spot-img {
+    height: 400px;
+    background-image: url('../img/h2.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+  }
+
+  .text-caps {
+      text-transform: uppercase;
+      font-weight: bold;
+  }
+
+  .btn {
+      line-height: 1.4;;
+  }
+
+  .btn-nass {
+      color: white;
+      background: #27ae60;
+  }
+
+  .btn-nass-w {
+    color:#167B1E;
+    background: white;
+}
+
+
+  .btn-nass:hover {
+      background: white;
+      color: #27ae60;
+  }
+
+  .press-date, .member-pos {
+      color: #821919;
+  }
+
+  .press-link {
+      color: #000;
+      font-weight: bold;
+      font-size: .8em;
+  }
+
+  .press-link:hover {
+      color: #27ae60;
+      text-decoration: none;
+  }
+
+  .card-footer {
+    background-color: transparent;
+    border-top: none;
+}
+
+.featured-press {
+    position: relative;
+    margin-top: -50px;;
+}
+
+.featured-press .card:hover, .press .card:hover {
+    box-shadow: inset 0 -3px 0 #27ae60;
+    transition: .3s ease-in-out;
+}
+
+footer {
+    background: #333;
+}
+
+.footer-nav {
+	display: flex;
+	list-style-type: none;
+    text-align: center;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.footer-item {
+	display: block;
+	min-width: 90px;
+	font-size: 1em;
+	line-height: 50px;
+	color: #000;
+}
+
+.footer-item a {
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.nass-social {
+    display: flex;
+    justify-content: center;
+}
+
+.social, .social-b {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.social-b {
+    color: #821919;
+}
+
+.copyright, .nass-social>.social, .footer-item > a, .social {
+    color: white;
+}
+
+.copyright span {
+    font-size: smaller;
+}
+
+
+  @media only screen and (max-width: 640px) {
+      .w-60, .w-40 {
+          width: 100%;
+      }
+
+      .footer-nav {
+          flex-direction: column;
+      }
+  }
