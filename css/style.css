@@ -60,9 +60,21 @@
     opacity: .5;
 }
 
+.bg-light {
+    background-color: white !important;
+}
+
+.nass-logo {
+    width: 12rem;
+}
+
 .navbar-expand-lg .navbar-nav .nav-link, .footer-item {
     padding-right: 1rem;
     padding-left: .5rem;
+}
+
+.navbar-light .navbar-nav .active>.nav-link, .navbar-light .navbar-nav .nav-link:hover {
+    color: #27ae60;
 }
 
 .head-img {
@@ -92,7 +104,18 @@
 
   .about-img img {
       width: 5rem;
+      padding-bottom: 25px;
+      padding-top: 25px
   }
+
+  .about-img p a {
+      color: #212529;
+  }
+
+  .about-img p a:hover {
+    color: #27ae60;
+    text-decoration: none;;
+}
 
   .members a h5 {
       color: #212529;
@@ -106,6 +129,9 @@
     color: #27ae60;
   }
 
+  .map {
+      height: 500px;
+  }
 .spot-img {
     height: 400px;
     background-image: url('../img/h2.jpg');
@@ -133,7 +159,6 @@
     color:#167B1E;
     background: white;
 }
-
 
   .btn-nass:hover {
       background: white;
@@ -220,7 +245,6 @@ footer {
 	min-width: 90px;
 	font-size: 1em;
 	line-height: 50px;
-	color: #000;
 }
 
 .footer-item a {
@@ -237,13 +261,20 @@ footer {
     padding-left: 10px;
     padding-right: 10px;
 }
+.social-b-l {
+    padding-right: 10px;
+}
 
-.social-b {
+.social-b, .social-b-l {
     color: #821919;
 }
 
 .copyright, .nass-social>.social, .footer-item > a, .social {
-    color: white;
+    color: gray;
+}
+
+.footer-item > a:hover, .social:hover {
+    color: #27ae60;
 }
 
 .copyright span {
@@ -259,4 +290,8 @@ footer {
       .footer-nav {
           flex-direction: column;
       }
+
+      .about-img img {
+        padding-top: 25px
+    }
   }
